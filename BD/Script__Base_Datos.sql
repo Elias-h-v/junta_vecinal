@@ -79,4 +79,4 @@ FOREIGN KEY (id_comision) REFERENCES comisiones(id_comision),
 FOREIGN KEY (rut) REFERENCES socios(rut)
 );
 
-SHOW CREATE DATABASE junta_vecinos;
+

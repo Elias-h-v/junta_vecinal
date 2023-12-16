@@ -1,0 +1,24 @@
+/* En styles.css */
+#certificado {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.firma {
+  margin-top: 20px;
+}

@@ -2,6 +2,10 @@ from django.shortcuts import render
 from .models import Socios
 from django.http import HttpResponse
 
+
+def index(request):
+    return render(request, 'vecinos_app/index.html')
+
 def info_socios(request):
     socios_lista = Socios.objects.all().order_by('rut')
     return render(request, "info_socio.html", {"Socios": socios_lista})
